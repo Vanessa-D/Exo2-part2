@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Liste déroulante</title>
+    </head>
+    <body>
+        <form method="POST" action="#">
+            <p>
+                <label for="options">C'est quoi tes options ?</label>
+                <select name="options" id="options" required>
+                    <option value="select">Alors...</option>
+                    <optgroup label="Langages">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="js">JavaScript</option>
+                   </optgroup>
+                    <optgroup label="Outils">
+                        <option value="vscode">Visual Studio Code</option>
+                        <option value="google">Google</option>
+                        <option value="youtube">Youtube</option>
+                        <option value="tous">Les trois</option>
+                    </optgroup>
+                    <optgroup label="Méthodes">
+                        <option value="pratiquer">Pratiquer</option>
+                        <option value="pratiquer">Pratiquer</option>
+                        <option value="pratiquer">Pratiquer</option>
+                    </optgroup>  
+                </select>
+            </p>
+        </form>
+    </body>
+</html>
